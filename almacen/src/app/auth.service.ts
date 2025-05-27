@@ -14,7 +14,7 @@ export class AuthService {
       return !!localStorage.getItem('token');
     }
     return false;
-  }
+  }   
 
   // Método para cerrar sesión
   logout() {
@@ -26,7 +26,7 @@ export class AuthService {
         console.log('No hay token almacenado.');
       }
     }
-    this.router.navigate(['/inicio-sesion']); // Redirige al usuario a la página de inicio
+    this.router.navigate(['/iniciar-sesion']); // Redirige al usuario a la página de inicio
   }
   
 }

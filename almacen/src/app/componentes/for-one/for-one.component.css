@@ -5,13 +5,17 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-body {
-  background-color: #f5f5f5;
-  color: #333;
-  line-height: 1.6;
-  padding: 60px 20px 20px;
-}
-
+ body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 60px 20px 20px; 
+    background-image: url('https://i.pinimg.com/736x/4c/d6/79/4cd6793352b3ea18f8f0c4fd8271fbaa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Opcional, da efecto parallax suave */
+  }
 /* Contenedor principal */
 .product-container {
   display: flex;
